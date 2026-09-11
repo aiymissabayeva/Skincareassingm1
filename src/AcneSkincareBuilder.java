@@ -1,7 +1,7 @@
 public class AcneSkincareBuilder implements SkincareBuilder{
     private String name;
-    private String brand = "Unknown";
-    private String skinType = "Unknown";
+    private String brand = "Not choosen";
+    private String skinType = "Not choosen";
     private String mainIngredient = "Salicylic Acid";
     private boolean spf = false;
 
