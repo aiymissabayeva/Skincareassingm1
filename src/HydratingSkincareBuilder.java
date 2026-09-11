@@ -7,27 +7,32 @@ public class HydratingSkincareBuilder implements SkincareBuilder{
 
     @Override
     public SkincareBuilder setName(String name) {
-        return null;
+        this.name = name;
+        return this;
     }
 
     @Override
     public SkincareBuilder setBrand(String brand) {
-        return null;
+        this.brand = brand;
+        return this;
     }
 
     @Override
     public SkincareBuilder setSkinType(String skinType) {
-        return null;
+        this.skinType = skinType;
+        return this;
     }
 
     @Override
     public SkincareBuilder setMainIngredient(String mainIngredient) {
-        return null;
+        this.mainIngredient = mainIngredient;
+        return this;
     }
 
     @Override
     public SkincareBuilder setSpf(boolean spf) {
-        return null;
+        this.spf = spf;
+        return this;
     }
 
     @Override
