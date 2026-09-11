@@ -37,6 +37,15 @@ public class HydratingSkincareBuilder implements SkincareBuilder{
 
     @Override
     public SkincareProduct build() {
-        return null;
+        if (name == null){
+            throw new IllegalStateException("Product name is required!");
+        }
+        return new SkincareProduct(
+            name,
+            brand,
+            skinType,
+            mainIngredient,
+            spf
+        );
     }
 }
