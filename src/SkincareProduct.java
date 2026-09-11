@@ -12,4 +12,15 @@ public class SkincareProduct {
         this.mainIngredient = mainIngredient;
         this.spf = spf;
     }
+
+    @Override
+    public String toString() {
+        return "SkincareProduct{" +
+                "name='" + name + '\'' +
+                ", brand='" + brand + '\'' +
+                ", skinType='" + skinType + '\'' +
+                ", mainIngredient='" + mainIngredient + '\'' +
+                ", spf=" + spf +
+                '}';
+    }
 }

@@ -2,7 +2,7 @@ public class HydratingSkincareBuilder implements SkincareBuilder{
     private String name;
     private String brand = "Not choosen";
     private String skinType = "Not choosen";
-    private String mainIngredient = "Unknown";
+    private String mainIngredient = "Hyaluronic Acid";
     private boolean spf = false;
 
     @Override
