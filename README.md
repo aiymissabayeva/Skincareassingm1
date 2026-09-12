@@ -17,7 +17,7 @@ SkincareDirector has predefined methods for creating skincare products using the
 ## Example
 SkincareProduct hydratingProduct = director.createHydratingProduct("Hydrating Cream", "Combination");
 
-        SkincareProduct acneProduct = director.createAcneProduct("Acne Serum", true);
+SkincareProduct acneProduct = director.createAcneProduct("Acne Serum", true);
 
 ## How to Run
 Open Main.java and run the main method.
